@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/PetRepositoryTest.java",
+      "testCases": [
+        {
+          "methodName": "lab1test",
+          "label": "Retrieve all pets of a specific species",
+          "description": "Verifies that retrieving pets by species returns the correct pets and excludes pets of other species."
+        },
+        {
+          "methodName": "lab2test",
+          "label": "Retrieve pets by name or age",
+          "description": "Verifies that retrieving pets by name or age returns the correct set of pets matching either condition."
+        },
+        {
+          "methodName": "lab3test",
+          "label": "Calculate average age of all pets",
+          "description": "Verifies that the method correctly calculates the average age of all pets in the repository."
+        }
+      ]
+    }
+  ]
+}
